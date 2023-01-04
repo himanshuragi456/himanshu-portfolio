@@ -7,35 +7,21 @@ const LeftSideBar = () => {
             <main className="left__main">
                 <ul className="left__social">
                     <li className="left__linkItems">
-                        <a href='https://www.youtube.com/channel/UCax8or2_bzQCHe0GdSLITOA' className="left__links" target="_blank" rel='noreferrer'>
-                            <svg className="left__icon">
-                                <use href="icons/symbol-defs.svg#icon-youtube"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li className="left__linkItems">
-                        <a href='https://codepen.io/yashfalke77' className="left__links" target="_blank" rel='noreferrer'>
-                            <svg className="left__icon">
-                                <use href="/icons/symbol-defs.svg#icon-codepen"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li className="left__linkItems">
-                        <a href='https://github.com/yashfalke77' className="left__links" target="_blank" rel='noreferrer'>
+                        <a href='https://github.com/himanshuragi456' className="left__links" target="_blank" rel='noreferrer'>
                             <svg className="left__icon">
                                 <use href="/icons/symbol-defs.svg#icon-github"></use>
                             </svg>
                         </a>
                     </li>
                     <li className="left__linkItems">
-                        <a href='https://www.instagram.com/yashfalke77/' className="left__links" target="_blank" rel='noreferrer'>
+                        <a href='https://www.instagram.com/himanshuragi/' className="left__links" target="_blank" rel='noreferrer'>
                             <svg className="left__icon">
                                 <use href="/icons/symbol-defs.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
                     <li className="left__linkItems">
-                        <a href='https://www.linkedin.com/in/yashfalke77/' target="_blank" rel='noreferrer' className="left__links">
+                        <a href='https://www.linkedin.com/in/himanshuragi/' target="_blank" rel='noreferrer' className="left__links">
                             <svg className="left__icon">
                                 <use href="/icons/symbol-defs.svg#icon-linkedin"></use>
                             </svg>

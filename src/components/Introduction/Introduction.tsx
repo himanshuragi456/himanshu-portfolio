@@ -6,7 +6,7 @@ import './introduction.scss';
 const Introduction = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
   const nameArray = 'Himanshu,'.split('');
-  const jobArray = 'oftware enginner'.split('');
+  const jobArray = 'oftware Engineer'.split('');
 
   useEffect(() => {
     setTimeout(() => {
