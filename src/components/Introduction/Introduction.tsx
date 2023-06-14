@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import AnimatedLetters from '../AnimatedLetters';
-import './introduction.scss';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import AnimatedLetters from "../AnimatedLetters";
+import "./introduction.scss";
 
 const Introduction = () => {
-  const [letterClass, setLetterClass] = useState('text-animate');
-  const nameArray = 'Himanshu,'.split('');
-  const jobArray = 'oftware Engineer'.split('');
+  const [letterClass, setLetterClass] = useState("text-animate");
+  const nameArray = "Himanshu,".split("");
+  const jobArray = "oftware Engineer".split("");
 
   useEffect(() => {
     setTimeout(() => {
-      setLetterClass('text-animate-hover');
+      setLetterClass("text-animate-hover");
     }, 4000);
   });
 
   return (
-    <div className="intro ">
+    <div className="intro">
       <div className="intro__left">
         <span className="sectiontag">&lt;section&gt;</span>
         <h1 className="intro__headingPrimary">
@@ -55,37 +55,64 @@ const Introduction = () => {
             id="yash"
             width="49rem"
             height="49.5rem"
-            viewBox="0 0 299 295"
+            viewBox="0 0 491 538"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M248.278 83.6616L224.712 70.4848L168.887 110.878M85.6047 237.312L62.8238 224.575L100.109 157.891L104.698 3.38086L128.265 16.5576"
+              d="M388.5 72.5L322.5 247L207.5 217L278.5 37L193.5 12L166 0.5"
               stroke="#FFD700"
-              strokeWidth="2"
             />
             <path
-              d="M291.52 111.186L294.268 109.376L291.396 107.77L250.548 84.9305L249.437 84.3091L248.403 85.053L166.147 144.274L173.274 43.0404L173.363 41.7739L172.255 41.1543L130.883 18.0217L128.006 16.4127L127.908 19.7081L123.365 173.058L88.0263 236.26L87.0503 238.006L88.7959 238.982L125.455 259.479L127.2 260.455L128.176 258.71L163.516 195.506L291.52 111.186Z"
+              d="M223 501.5L294 311L183 278.5L104.5 481L26.5 455.5L1.5 441L165 0.5"
               stroke="#FFD700"
-              strokeWidth="2"
             />
+            <path
+              d="M407.5 319.5L490 103.5L415 81.5L387.5 70.5"
+              stroke="#FFD700"
+            />
+            <path
+              d="M407.5 319.5L323.5 536.5L250 512.5L223 501.5"
+              stroke="#FFD700"
+            />
+            <path d="M164.5 3.5L86.5 212.5" stroke="#FFD700" />
           </svg>
         </div>
         <div className="logo__fill">
           <svg
-            width="50.2rem"
-            height="49.7rem"
-            viewBox="0 0 287 287"
+            width="49rem"
+            height="49.5rem"
+            viewBox="0 0 491 539"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M263.019 90.5984L134.609 175.189L99.0325 238.819L62.3734 218.323L97.9495 154.693L102.504 0.853027L143.877 23.9848L136.452 129.476L222.17 67.7595L263.019 90.5984Z"
-              fill="#FFD700"
+              d="M193.744 12L279.261 34.7323L204.677 225.431L343.399 262.055L321.577 319.517L414.409 80.8283L490 102.298L323.495 538L247.956 513.373L321.577 319.517L182.291 278.473L104.409 481.801L25 455.911L92.9557 278.473L193.744 12Z"
+              fill="#115173"
             />
             <path
-              d="M286.585 103.775L158.175 188.366L122.599 251.995L85.9398 231.499L121.516 167.869L126.071 14.0293L167.443 37.1611L160.018 142.652L245.737 80.9357L286.585 103.775Z"
-              fill="#115173"
+              d="M204.677 225.431L279.261 34.7323L193.744 12L92.9557 278.473L25 455.911L104.409 481.801L182.291 278.473M204.677 225.431L343.399 262.055M204.677 225.431L182.291 278.473M343.399 262.055L321.577 319.517M343.399 262.055L247.956 513.373L323.495 538L490 102.298L414.409 80.8283L321.577 319.517M321.577 319.517L182.291 278.473"
+              stroke="#115173"
+            />
+            <path
+              d="M223 501.5L248 513L321 320L295.5 312L223 501.5Z"
+              fill="#FFD700"
+              stroke="#FFD700"
+            />
+            <path
+              d="M317.5 255L343.5 261.5L414 80.5L387.5 70L317.5 255Z"
+              fill="#FFD700"
+              stroke="#FFD700"
+            />
+            <path
+              d="M1.5 441.5L25.0001 455L193.527 11.9999L165.5 1.0704L1.5 441.5Z"
+              fill="#FFD700"
+              stroke="#FFD700"
+            />
+            <path
+              d="M208.5 217.5L321 248.5L318 255L205.5 224.5L208.5 217.5Z"
+              fill="#FFD700"
+              stroke="#FFD700"
             />
           </svg>
         </div>

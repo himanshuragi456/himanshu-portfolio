@@ -8,7 +8,7 @@
     color: #ffd700;
     opacity: 0.7;
     font-weight: 500;
-    margin: 1.6rem 0rem;
+    margin: 2.6rem 0rem;
 }
 
 .intro {
@@ -248,7 +248,7 @@
 
     &__outline {
         position: absolute;
-        right: 7.28rem;
+        right: 5.08rem;
         top: 0;
 
         @include respond(tab-port) {
@@ -264,7 +264,7 @@
 
     &__fill {
         position: absolute;
-        right: 7.1rem;
+        right: 5.1rem;
         top: 0;
         animation: 4s ease 0s normal forwards fadein;
         -webkit-animation: 4s ease 0s normal forwards fadein;

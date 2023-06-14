@@ -1,5 +1,5 @@
 import React from 'react'
-// import logo from "../static/images/logo.png"
+import logo from "../static/images/logo.png"
 import { Link } from "react-router-dom"
 import "./scss/navbar.scss"
 
@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar__left">
                 <Link to="/" className="navbar__link">
-                    <img alt='logo' src="https://res.cloudinary.com/dhbiouaym/image/upload/v1663667966/Portfolio/logo_qny4vm.png" className="navbar__img" />
+                    <img alt='logo' src={logo} className="navbar__img" />
                 </Link>
             </div>
             <div className="navbar__right">
