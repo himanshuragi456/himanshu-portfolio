@@ -88,18 +88,19 @@ const Project = () => {
           <div className="project__left1">
             <h3 className="project__headingTertiary">Featured Project</h3>
             <a
-              href="https://arcane-retreat-14101.herokuapp.com/"
+              href="https://droneshop-hr.web.app/"
               target="_blank"
               rel="noreferrer"
               className="project__headingSecondary"
             >
-              <h2>YelpCamp Campgrounds</h2>
+              <h2>Drone Shop (E- commerce)</h2>
             </a>
             <div className="project__descriptionContainer project__descriptionContainer1">
               <p className="project__description">
-                A camping sites web app project that enables you to add, update,
-                and delete campgrounds as well as view campgrounds added by
-                other users and receive comments and ratings from other users.{" "}
+                Discover an immersive and intuitive interface designed
+                specifically for drone enthusiasts. 📸🔍 With stunning visuals
+                and seamless navigation, we make it easy for you to explore and
+                purchase the latest drone models with confidence.{" "}
               </p>
               <div className="project__tags">
                 React.js &nbsp; Express.js &nbsp; Node.js &nbsp; MongoDB &nbsp;
@@ -107,7 +108,7 @@ const Project = () => {
               </div>
               <div className="project__icons project__icons1">
                 <a
-                  href="https://github.com/yashfalke77/YelpCamp-Campgrounds"
+                  href="https://github.com/himanshuragi456/droneshop-frontend"
                   target="_blank"
                   rel="noreferrer"
                   style={{ marginRight: "1.6rem" }}
@@ -117,7 +118,7 @@ const Project = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://arcane-retreat-14101.herokuapp.com/"
+                  href="https://droneshop-hr.web.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -131,7 +132,7 @@ const Project = () => {
           <div className="project__right">
             <img
               className="project__img"
-              src="https://res.cloudinary.com/dhbiouaym/image/upload/q_auto:eco/v1663667984/Portfolio/project2_dazq0o.png"
+              src="https://res.cloudinary.com/djxpqemkk/image/upload/v1688021914/Screenshot_2023-06-29_at_12.22.56_PM_akunkc.png"
               alt="yelpcap campgrounds"
             />
           </div>
@@ -142,28 +143,26 @@ const Project = () => {
           <div className="project__left">
             <img
               className="project__img"
-              src="https://res.cloudinary.com/dhbiouaym/image/upload/q_auto:eco/v1663667991/Portfolio/project3_rw9d06.jpg"
+              src="https://res.cloudinary.com/djxpqemkk/image/upload/v1686734425/Screenshot_2023-06-12_at_4.19.09_PM_pkwsof.png"
               alt="online grocery store"
             />
           </div>
           <div className="project__right">
             <h3 className="project__headingTertiary">Featured Project</h3>
             <a
-              href="https://youtu.be/5oOiJrRQenw"
+              href="https://www.whimstay.com/"
               target="_blank"
               rel="noreferrer"
               className="project__headingSecondary"
             >
-              <h2>Online Grocery store</h2>
+              <h2>Whimay (Hotel Booking Platform)</h2>
             </a>
             <div className="project__descriptionContainer">
               <p className="project__description">
-                The project entailed creating an ecommerce website with everyday
-                necessities and food as its products.
+                The project entailed creating a hotel booking website with all
+                the complex cancellation, payment, booking processes.
                 <br />
                 <br />
-                An Django application with email based authentication and uses
-                cookies - sessions
               </p>
               <div className="project__tags">
                 {" "}
@@ -171,7 +170,7 @@ const Project = () => {
                 javascript
               </div>
               <div className="project__icons">
-                <a
+                {/* <a
                   href="https://github.com/yashfalke77/Online-Grocery-Store"
                   target="_blank"
                   rel="noreferrer"
@@ -180,9 +179,9 @@ const Project = () => {
                   <svg className="project__icon">
                     <use href="icons/symbol-defs.svg#icon-github"></use>
                   </svg>
-                </a>
+                </a> */}
                 <a
-                  href="https://youtu.be/5oOiJrRQenw"
+                  href="https://www.whimstay.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -207,7 +206,7 @@ const Project = () => {
               </svg>
               <div className="projectResp__cardLink">
                 <a
-                  href="https://github.com/yashfalke77/food-ordering-app"
+                  href="https://github.com/himanshuragi456/crocs-web"
                   target="_blank"
                   rel="noreferrer"
                   style={{ marginRight: "1.6rem" }}
@@ -217,7 +216,7 @@ const Project = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://youtu.be/Bm6oUdohS9M"
+                  href="https://crocs-josh.web.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -228,12 +227,13 @@ const Project = () => {
               </div>
             </div>
             <div className="projectResp__cardBody">
-              <div className="projectResp__cardBodyHeading">Colors.co</div>
+              <div className="projectResp__cardBodyHeading">Crocs</div>
               <p className="projectResp__cardBodyDescription">
-                Coolors is the essential tool for creating and collecting color
-                palettes. It allows you to generate perfect matching colors in
-                seconds. Even if you are not so skilled in design!. You may use
-                a variety of color spaces, including RGB, CMYK, LAB etc.
+                {`Crocs may want a better website. 😛
+                  | Made with Vue.js and loads of animations in it! 🚀
+                  | custom cursor!
+                  | UI perfectly fitting in Crocs business values
+                  | smooth and beautiful animations ❤️`}
               </p>{" "}
             </div>
             <div className="projectResp__cardFooter">
@@ -253,7 +253,7 @@ const Project = () => {
               </svg>
               <div className="projectResp__cardLink">
                 <a
-                  href="https://github.com/yashfalke77/iNotebook"
+                  href="https://github.com/himanshuragi456/droneshop-frontend"
                   target="_blank"
                   rel="noreferrer"
                   style={{ marginRight: "1.6rem" }}
@@ -263,7 +263,7 @@ const Project = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://youtu.be/MF7xbfKyaEk"
+                  href="https://droneshop-hr.web.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -275,12 +275,13 @@ const Project = () => {
             </div>
             <div className="projectResp__cardBody">
               <div className="projectResp__cardBodyHeading">
-                YelpCamp Campgrounds
+                Drone Shop (E- commerce)
               </div>
               <p className="projectResp__cardBodyDescription">
-                A camping sites web app project that enables you to add, update,
-                and delete campgrounds as well as view campgrounds added by
-                other users and receive comments and ratings from other users.
+                Discover an immersive and intuitive interface designed
+                specifically for drone enthusiasts. 📸🔍 With stunning visuals
+                and seamless navigation, we make it easy for you to explore and
+                purchase the latest drone models with confidence.
               </p>
             </div>
             <div className="projectResp__cardFooter">
@@ -299,7 +300,7 @@ const Project = () => {
                 <use href="icons/symbol-defs.svg#icon-folder"></use>
               </svg>
               <div className="projectResp__cardLink">
-                <a
+                {/* <a
                   href="https://github.com/yashfalke77/Natours-project"
                   target="_blank"
                   rel="noreferrer"
@@ -308,25 +309,25 @@ const Project = () => {
                   <svg className="projectResp__icon">
                     <use href="icons/symbol-defs.svg#icon-github"></use>
                   </svg>
-                </a>
+                </a> */}
                 <a
-                  href="https://codepen.io/yashfalke77/pen/zYpvOBo"
+                  href="https://www.whimstay.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <svg className="projectResp__icon">
-                    <use href="icons/symbol-defs.svg#icon-codepen"></use>
+                    <use href="icons/symbol-defs.svg#icon-external-link"></use>{" "}
                   </svg>
                 </a>
               </div>
             </div>
             <div className="projectResp__cardBody">
               <div className="projectResp__cardBodyHeading">
-                Online Grocery store
+                Whimay (Hotel Booking Platform)
               </div>
               <p className="projectResp__cardBodyDescription">
-                The project entailed creating an ecommerce website with everyday
-                necessities and food as its products.
+                The project entailed creating a hotel booking website with all
+                the complex cancellation, payment, booking processes.
                 <br />
                 <br />
                 An Django application with email based authentication and uses

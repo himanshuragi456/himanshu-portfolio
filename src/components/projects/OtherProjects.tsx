@@ -32,12 +32,12 @@ const OtherProjects = () => {
                                 <use href="icons/symbol-defs.svg#icon-folder"></use>
                             </svg>
                             <div className='other__cardLink'>
-                                <a href="https://github.com/yashfalke77/food-ordering-app" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
+                                <a href="https://github.com/himanshuragi456/defi-exchange" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-github"></use>
                                     </svg>
                                 </a>
-                                <a href="https://youtu.be/Bm6oUdohS9M" target='_blank' rel='noreferrer'>
+                                <a href="https://defi-exchange-orpin.vercel.app/" target='_blank' rel='noreferrer'>
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-external-link"></use>
                                     </svg>
@@ -45,9 +45,9 @@ const OtherProjects = () => {
                             </div>
                         </div>
                         <div className="other__cardBody">
-                            <div className="other__cardBodyHeading">Food Ordering App</div>
+                            <div className="other__cardBodyHeading">Defi Exchange</div>
                             <p className='other__cardBodyDescription'>
-                                Responsive pizza restaurant food ordering app UI design using React | Next.js. Design restaurant app using React Next.js and CSS. Next.js MongoDB restaurant (order food) project using React Redux. Full-stack Next.js APP.                            </p>
+                            Cutting-edge development of our decentralized finance (DeFi) exchange launchpad, built using the latest MERN stack technologies</p>
                         </div>
                         <div className="other__cardFooter">
                             <div className='other__tags'> Material UI &nbsp; Nextjs &nbsp; Mongodb &nbsp; jwt-auth</div>
@@ -61,12 +61,12 @@ const OtherProjects = () => {
                                 <use href="icons/symbol-defs.svg#icon-folder"></use>
                             </svg>
                             <div className='other__cardLink'>
-                                <a href="https://github.com/yashfalke77/iNotebook" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
+                                <a href="https://github.com/himanshuragi456/josh-it-works" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-github"></use>
                                     </svg>
                                 </a>
-                                <a href="https://youtu.be/MF7xbfKyaEk" target='_blank' rel='noreferrer'>
+                                <a href="https://joshitworks.com/" target='_blank' rel='noreferrer'>
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-external-link"></use>
                                     </svg>
@@ -74,9 +74,9 @@ const OtherProjects = () => {
                             </div>
                         </div>
                         <div className="other__cardBody">
-                            <div className="other__cardBodyHeading">INotebook</div>
+                            <div className="other__cardBodyHeading">Josh IT Works</div>
                             <p className='other__cardBodyDescription'>
-                                Notebook is made from the pain of writing all the things in notebook which is very hectic. So we made a online web platform where you can create,edit, upload,delete your notes / information privately and securely without any disturbancee,you can also access your notes anywhere in your world,at anytime time.</p>
+                            Portfolio website for Josh IT Works. As a team of skilled professionals, we pride ourselves on delivering high-quality solutions tailored to meet our clients' unique needs. </p>
                         </div>
                         <div className="other__cardFooter">
                             <div className='other__tags'> Material UI &nbsp; React &nbsp; MongoDB &nbsp; Expressjs</div>
@@ -90,22 +90,22 @@ const OtherProjects = () => {
                                 <use href="icons/symbol-defs.svg#icon-folder"></use>
                             </svg>
                             <div className='other__cardLink'>
-                                <a href="https://github.com/yashfalke77/Natours-project" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
+                                {/* <a href="https://github.com/yashfalke77/Natours-project" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-github"></use>
                                     </svg>
-                                </a>
-                                <a href="https://codepen.io/yashfalke77/pen/zYpvOBo" target='_blank' rel='noreferrer'>
+                                </a> */}
+                                <a href="https://sashawear.in/" target='_blank' rel='noreferrer'>
                                     <svg className="other__icon">
-                                        <use href="icons/symbol-defs.svg#icon-codepen"></use>
+                                    <use href="icons/symbol-defs.svg#icon-external-link"></use>
                                     </svg>
                                 </a>
                             </div>
                         </div>
                         <div className="other__cardBody">
-                            <div className="other__cardBodyHeading">Natours</div>
+                            <div className="other__cardBodyHeading">Sasha Eyewear</div>
                             <p className='other__cardBodyDescription'>
-                                Natours. An awesome tour booking site built on top of NodeJS. A Web design of tours and travelling usingAdvanced css i.e SCSS / SASS
+                                An E-commerce site for Sasha Eyewear, allowing them to scale and sale their products online, also equipped with order tracking and cancellation flow.
                             </p>
                         </div>
                         <div className="other__cardFooter">
@@ -120,26 +120,26 @@ const OtherProjects = () => {
                                 <use href="icons/symbol-defs.svg#icon-folder"></use>
                             </svg>
                             <div className='other__cardLink'>
-                                <a href="https://github.com/yashfalke77/Ping-Pong-Score-Keeper" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
+                                <a href="https://github.com/himanshuragi456/thunderapp" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-github"></use>
                                     </svg>
                                 </a>
-                                <a href="https://codepen.io/yashfalke77/pen/KKqpgzN" target='_blank' rel='noreferrer'>
+                                <a href="https://thunderapp.co/" target='_blank' rel='noreferrer'>
                                     <svg className="other__icon">
-                                        <use href="icons/symbol-defs.svg#icon-codepen"></use>
+                                    <use href="icons/symbol-defs.svg#icon-external-link"></use>
                                     </svg>
                                 </a>
                             </div>
                         </div>
                         <div className="other__cardBody">
-                            <div className="other__cardBodyHeading">Ping Pong Score-Keeper</div>
+                            <div className="other__cardBodyHeading">Thunder App</div>
                             <p className='other__cardBodyDescription'>
-                                Ping Pong Score Keeper website built on vanilla javascript and bulma frontend framework
+                                A Mobile app for college introverts, where we help them find a circle with similar interests, leading to a happier and productive college life/enviroment.
                             </p>
                         </div>
                         <div className="other__cardFooter">
-                            <div className='other__tags'> Bulma &nbsp; javascript &nbsp; vanilla js</div>
+                            <div className='other__tags'> React Native &nbsp; javascript &nbsp; Expo</div>
                         </div>
                     </div>
                 </li>
@@ -150,25 +150,25 @@ const OtherProjects = () => {
                                 <use href="icons/symbol-defs.svg#icon-folder"></use>
                             </svg>
                             <div className='other__cardLink'>
-                                <a href="https://github.com/pico-india/main-django" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
+                                <a href="https://github.com/himanshuragi456/decor-frontend" target='_blank' rel='noreferrer' style={{ marginRight: "1.6rem" }}>
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-github"></use>
                                     </svg>
                                 </a>
-                                <a href="https://youtu.be/HI5fYKvuo-8" target='_blank' rel='noreferrer'>
+                                {/* <a href="https://youtu.be/HI5fYKvuo-8" target='_blank' rel='noreferrer'>
                                     <svg className="other__icon">
                                         <use href="icons/symbol-defs.svg#icon-external-link"></use>
                                     </svg>
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                         <div className="other__cardBody">
-                            <div className="other__cardBodyHeading">Pico - A photo library website</div>
+                            <div className="other__cardBodyHeading">Decor shop</div>
                             <p className='other__cardBodyDescription'>
-                                Pico is a website dedicated to sharing stock photography under the Pico license. Pico allows photographers to upload photos to its website, which are then curated by a team of photo editors. In Pico we are aspiring to be one of the largest photography suppliers on the internet.                            </p>
+                            An E-commerce shop for Home decor items, uses Razorpay for payment integration and Ejs for admin panel template. The admin can dynamically add/remove products just from the admin panel.</p>
                         </div>
                         <div className="other__cardFooter">
-                            <div className='other__tags'> Python &nbsp; Django &nbsp; HTML / CSS &nbsp; Javascript</div>
+                            <div className='other__tags'> Ejs &nbsp; React &nbsp; TypeScript &nbsp; Tailwind CSS</div>
                         </div>
                     </div>
                 </li>

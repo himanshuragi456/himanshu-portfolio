@@ -4,6 +4,7 @@ import "styles/contact.scss"
 import Map, { Marker } from 'react-map-gl';
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
+import BackButton from '../static/images/BackButton.png'
 
 
 const Contact = () => {
@@ -48,7 +49,9 @@ const Contact = () => {
         <div className='contact'>
             <div className="contact__left">
                 <span className="tag" style={{ padding: "0rem" }}>&lt;body&gt;</span>
-                <button style={{ backgroundColor: "transparent", border: "none", fontSize: '28px', color: "Background", cursor: "pointer" }} onClick={() => navigate('/')}>⬅</button>
+                <button style={{ backgroundColor: "transparent", border: "none", fontSize: '28px', color: "Background", cursor: "pointer" }} onClick={() => navigate('/')}>
+                    <img src={BackButton} style={{filter: "invert(85%)"}} alt='back' width={40} />
+                </button>
                 <h1 className="about__headingPrimary">
                     <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
                 </h1>
