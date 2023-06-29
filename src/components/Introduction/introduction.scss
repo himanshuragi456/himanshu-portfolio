@@ -28,20 +28,21 @@
     }
 
     &__left {
-        flex: 0 0 50%;
+        flex: 0 0 64%;
 
         @include respond(phone) {
             flex: 0 0 100%;
         }
 
         @include respond(tab-port) {
-            flex: 0 0 60%;
+            flex: 0 0 90%;
         }
     }
 
     &__right {
         flex: 1;
         height: 55rem;
+        z-index: -6;
         position: relative;
 
         @include respond(phone) {
@@ -256,7 +257,7 @@
         }
 
         @include respond(phone) {
-            right: -22rem !important;
+            right: -25rem !important;
         }
 
 
@@ -275,7 +276,7 @@
         }
 
         @include respond(phone) {
-            right: -22rem !important;
+            right: -25rem !important;
         }
 
 

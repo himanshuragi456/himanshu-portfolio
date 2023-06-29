@@ -24,40 +24,30 @@ const About = () => {
         <div className="about__description">
           Hello! My name is{' '}
           <span className="about__link">Himanshu&nbsp;Ragi</span> and I’m a
-          Front-End Developer located in India and i have a serious passion for
+          Full-Stack Developer located in India and I have a serious passion for
           UI effects, animations and creating intuitive, dynamic user
           experiences.
           <br />
           <br />
-          Well-organised person, problem solver, focused student at{' '}
-          <a
-            href="https://www.medicaps.ac.in/"
-            target="_blank"
-            rel="noreferrer"
-            className="intro__link"
-          >
-            MU-INDORE
-          </a>{' '}
-          with high attention to detail. Fan of Gaming esports, outdoor
-          activities, TV series and Japanese anime. A family person and father
-          of two fractious boys.
+          Well-organised person, problem solver with high attention to detail. Fan of Gaming esports, outdoor
+          activities, TV series and Japanese anime.
           <br />
           <br />
           Here are the few technologies that I'have been working recently:{' '}
           <br />
           <ul className="about__skillsList">
             <li className="about__skillsItems">Javascript(ES6+)</li>
-            <li className="about__skillsItems">Python</li>
-            <li className="about__skillsItems">HTML/CSS</li>
+            <li className="about__skillsItems">Reactjs</li>
+            <li className="about__skillsItems">React Redux</li>
+            <li className="about__skillsItems">Tailwind CSS</li>
+            <li className="about__skillsItems">Typescript</li>
+            <li className="about__skillsItems">Nextjs</li>
             <li className="about__skillsItems">Nodejs</li>
             <li className="about__skillsItems">Expressjs</li>
-            <li className="about__skillsItems">Reactjs</li>
             <li className="about__skillsItems">MongoDb</li>
-            <li className="about__skillsItems">Nextjs</li>
-            <li className="about__skillsItems">React Redux</li>
+            <li className="about__skillsItems">Python</li>
             <li className="about__skillsItems">SQL</li>
-            <li className="about__skillsItems">Data Structures</li>
-            <li className="about__skillsItems">Algorithms</li>
+            <li className="about__skillsItems">Figma</li>
           </ul>
         </div>
         <span className="sectiontag">&lt;/section&gt;</span>

@@ -41,8 +41,11 @@ const Introduction = () => {
             idx={19}
           />
         </h1>
-        <h2 className="intro__headingSecondary">
+        {/* <h2 className="intro__headingSecondary">
           Full Stack Developer / Software Engineer
+        </h2> */}
+        <h2 className="intro__headingSecondary">
+          I can build MERN Projects from Design to Development, be it E-commerce, Web3, Employee Management or Custom Application
         </h2>
         <Link to="/contact" className="intro__button">
           Contact Me

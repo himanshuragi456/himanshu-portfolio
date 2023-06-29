@@ -24,7 +24,7 @@ const Touch = () => {
                     <AnimatedLettersFast letterClass={letterClass} strArray={nameArray} idx={15} />
                 </h1>
                 <p className='touch__description'>
-                    Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+                    I’m currently looking for new opportunities, projects, freelance or contract work. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
                 </p>
                 <Link to="/contact" className="intro__button">
                     Contact Me
