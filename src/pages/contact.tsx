@@ -3,12 +3,20 @@ import React, { useState, useEffect, useRef } from 'react'
 import "styles/contact.scss"
 import Map, { Marker } from 'react-map-gl';
 import emailjs from '@emailjs/browser';
+import { useNavigate } from 'react-router-dom';
 
 
 const Contact = () => {
 
     const [letterClass, setLetterClass] = useState("text-animate")
     const nameArray = "Contact me".split("")
+    const [Name, setName] = useState("")
+    const [Number, setNumber] = useState("")
+    const [Email, setEmail] = useState("")
+    const [Message, setMessage] = useState("")
+    const [Country, setCountry] = useState("")
+
+    const navigate = useNavigate()
 
 
     useEffect(() => {
@@ -17,26 +25,21 @@ const Contact = () => {
         }, 4000)
     })
 
-    const form = useRef();
-
-    const inputRef1 = useRef(null)
-    const inputRef2 = useRef(null)
-    const inputRef3 = useRef(null)
+    const Form = useRef(null)
+    // const inputRef2 = useRef(null)
+    // const inputRef3 = useRef(null)
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_7yhr48h', 'template_56ibui7', form.current, 'hWYBLhSzbCLzcSlTF')
+        emailjs.sendForm('service_h9wxy6g', 'template_83qiua8', Form.current, 'iAneWvGu0uNrSlhI3')
             .then((result) => {
                 console.log(result.text);
                 window.alert("Mail Sent Successfully!!!")
+                navigate('/')
             }, (error) => {
                 console.log(error.text);
             });
-
-        inputRef1.current.value = ""
-        inputRef2.current.value = ""
-        inputRef3.current.value = ""
 
     };
 
@@ -54,17 +57,25 @@ const Contact = () => {
                     questions, don't hesitate to contact me using below form either.
                 </p>
                 <div className="form">
-                    <form ref={form} onSubmit={sendEmail}>
+                    <form ref={Form} onSubmit={sendEmail}>
                         <div className="form__group">
-                            <input name="user_name" ref={inputRef1} type="text" className="form__input" id="name" placeholder="Full Name" required />
+                            <input name="user_name" value={Name} onChange={(e) => setName(e.target.value)} type="text" className="form__input" id="name" placeholder="Full Name" required />
                             <label htmlFor="name" className="form__label">Full Name</label>
                         </div>
                         <div className="form__group">
-                            <input type="email" ref={inputRef2} name="user_email" className="form__input" id="email" placeholder="Email Address" required />
+                            <input type="email" value={Email} onChange={(e) => setEmail(e.target.value)} name="user_email" className="form__input" id="email" placeholder="Email Address" required />
                             <label htmlFor="email" className="form__label">Email Address</label>
                         </div>
                         <div className="form__group">
-                            <textarea name="message" ref={inputRef3} className="form__input" id="email" placeholder="Message" required />
+                            <input type="text" value={Number} onChange={(e) => setNumber(e.target.value)} name="user_number" className="form__input" id="number" placeholder="Contact (Number or Skype ID)" />
+                            <label htmlFor="number" className="form__label">Contact (Number or Skype ID)</label>
+                        </div>
+                        <div className="form__group">
+                            <input type="text" value={Country} onChange={(e) => setCountry(e.target.value)} name="user_country" className="form__input" id="country" placeholder="Country" />
+                            <label htmlFor="country" className="form__label">Country</label>
+                        </div>
+                        <div className="form__group">
+                            <textarea name="message" value={Message} onChange={(e) => setMessage(e.target.value)} className="form__input" id="email" placeholder="Message" required />
                             <label htmlFor="email" className="form__label">Message</label>
                         </div>
                         <button value="Send" className="intro__button">
