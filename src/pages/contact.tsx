@@ -48,6 +48,7 @@ const Contact = () => {
         <div className='contact'>
             <div className="contact__left">
                 <span className="tag" style={{ padding: "0rem" }}>&lt;body&gt;</span>
+                <button style={{ backgroundColor: "transparent", border: "none", fontSize: '28px', color: "Background", cursor: "pointer" }} onClick={() => navigate('/')}>⬅</button>
                 <h1 className="about__headingPrimary">
                     <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
                 </h1>
@@ -58,10 +59,10 @@ const Contact = () => {
                 </p>
                 <div className="form">
                     <form ref={Form} onSubmit={sendEmail}>
-                        <div className="form__group">
+                        {/* <div className="form__group">
                             <input name="user_name" value={Name} onChange={(e) => setName(e.target.value)} type="text" className="form__input" id="name" placeholder="Full Name" required />
                             <label htmlFor="name" className="form__label">Full Name</label>
-                        </div>
+                        </div> */}
                         <div className="form__group">
                             <input type="email" value={Email} onChange={(e) => setEmail(e.target.value)} name="user_email" className="form__input" id="email" placeholder="Email Address" required />
                             <label htmlFor="email" className="form__label">Email Address</label>
