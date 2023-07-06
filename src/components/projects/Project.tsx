@@ -155,7 +155,7 @@ const Project = () => {
               rel="noreferrer"
               className="project__headingSecondary"
             >
-              <h2>Whimay (Hotel Booking Platform)</h2>
+              <h2>WhimStay (Hotel Booking Platform)</h2>
             </a>
             <div className="project__descriptionContainer">
               <p className="project__description">
