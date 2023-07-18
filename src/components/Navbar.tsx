@@ -29,7 +29,7 @@ const Navbar = () => {
                         <p className="navbar__itemsLink"><span className="navbar__itemsLinkNumeric">04.</span>.contact()</p>
                     </li>
                 </ul>
-                <a href="https://drive.google.com/file/d/1ZES7MGSyy-N8uZqOtV-ovhGW6p4AUVKn/view" target="_blank" rel='noreferrer' className="navbar__button">Resume</a>
+                <a href="https://docs.google.com/document/d/1H7sGOLvYHqLuFqNjwtSEXIA43aFtTpbc/edit?usp=sharing&ouid=117571935227360369447&rtpof=true&sd=true" target="_blank" rel='noreferrer' className="navbar__button">Resume</a>
             </div>
         </nav>
     )
